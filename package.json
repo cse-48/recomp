@@ -1,0 +1,33 @@
+{
+  "name": "@cse-48/recomp",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/recomp"
+  },
+  "version": "1.0.0",
+  "description": "react component library",
+  "author": "Ankit Chaudhary",
+  "license": "ISC",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rollup": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@types/react": "^18.0.15",
+    "react": "^18.2.0",
+    "rollup": "^2.77.2",
+    "rollup-plugin-dts": "^4.2.2",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "tslib": "^2.4.0"
+  }
+}
